@@ -1,0 +1,11 @@
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/bin/Debug/net10.0/ECommerceApi.Domain.deps.json
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/bin/Debug/net10.0/ECommerceApi.Domain.dll
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/bin/Debug/net10.0/ECommerceApi.Domain.pdb
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ECommerceApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ECommerceApi.Domain.AssemblyInfoInputs.cache
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ECommerceApi.Domain.AssemblyInfo.cs
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ECommerceApi.Domain.csproj.CoreCompileInputs.cache
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ECommerceApi.Domain.dll
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/refint/ECommerceApi.Domain.dll
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ECommerceApi.Domain.pdb
+/Users/alaa_ryo/Projects/e-commerce/ECommerceApi.Domain/obj/Debug/net10.0/ref/ECommerceApi.Domain.dll

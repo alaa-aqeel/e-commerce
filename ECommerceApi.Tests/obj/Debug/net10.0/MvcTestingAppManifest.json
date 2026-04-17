@@ -1,0 +1,6 @@
+{
+  "ECommerceApi.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/alaa_ryo\/Projects\/e-commerce\/ECommerceApi.API",
+  "ECommerceApi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/alaa_ryo\/Projects\/e-commerce\/ECommerceApi.Application",
+  "ECommerceApi.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/alaa_ryo\/Projects\/e-commerce\/ECommerceApi.Domain",
+  "ECommerceApi.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/alaa_ryo\/Projects\/e-commerce\/ECommerceApi.Infrastructure"
+}

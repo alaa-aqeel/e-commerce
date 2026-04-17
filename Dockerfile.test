@@ -1,0 +1,23 @@
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+# Copy solution and project files first to leverage Docker cache
+COPY ["ECommerceApi.sln", "./"]
+COPY ["ECommerceApi.Domain/ECommerceApi.Domain.csproj", "ECommerceApi.Domain/"]
+COPY ["ECommerceApi.Application/ECommerceApi.Application.csproj", "ECommerceApi.Application/"]
+COPY ["ECommerceApi.Infrastructure/ECommerceApi.Infrastructure.csproj", "ECommerceApi.Infrastructure/"]
+COPY ["ECommerceApi.API/ECommerceApi.API.csproj", "ECommerceApi.API/"]
+COPY ["ECommerceApi.Tests/ECommerceApi.Tests.csproj", "ECommerceApi.Tests/"]
+
+# Restore all packages
+RUN dotnet restore "ECommerceApi.sln"
+
+# Copy the remaining source code
+COPY . .
+
+# Build the test project explicitly
+WORKDIR "/src/ECommerceApi.Tests"
+RUN dotnet build "ECommerceApi.Tests.csproj" -c Release --no-restore
+
+# Run tests
+ENTRYPOINT ["dotnet", "test", "ECommerceApi.Tests.csproj", "-c", "Release", "--no-build", "--logger:trx;LogFileName=test_results.trx"]
